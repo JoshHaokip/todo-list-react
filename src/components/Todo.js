@@ -6,7 +6,8 @@ function Todo({details}) {
 
         fontSize: '15px',
         fontWeight: '400',
-
+        fontStyle: 'italic',
+        letterSpacing: '3px'
     }
 
 
