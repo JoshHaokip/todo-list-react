@@ -7,37 +7,13 @@ import './TodoList.css'
 
 function TodoList({todos, onDeleteClick, onToggleClick}) {
 
-    const listContainer = {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        width: '100%',
-    }
+    const listContainer = {display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%'}
 
-    const unorderedListStyles = {
+    const unorderedListStyles = {listStyle: 'none', marginTop: '30px', width: '85%', padding: '0'}
 
-        listStyle: 'none',
-        marginTop: '40px',
-        width: '85%',
-        padding: '0',
-    }
+    const listStyles = {display: 'flex', justifyContent: 'space-between', alignItems: 'center', margin: '10px'}
 
-    const listStyles = {
-
-        display: 'flex',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        margin: '10px',
-    }
-
-    const buttonStlyes = {
-
-        height: '28px',
-        width: '28px',
-        color: '#6EE7B7', 
-        marginLeft: '15px'
-
-    }
+    const buttonStlyes = {height: '28px', width: '28px', color: '#6EE7B7', marginLeft: '15px'}
     
     return (
 
@@ -47,7 +23,8 @@ function TodoList({todos, onDeleteClick, onToggleClick}) {
 
                 {todos.map(todo => 
 
-                    <div className={todo.isComplete ? 'completionButtonStlyes listStyles complete' : 'completionButtonStlyes listStyles'}>
+                    <div className={todo.isComplete ? 'completionButtonStlyes complete' : 'completionButtonStlyes '}>
+                        
                         <li style={listStyles} key={todo.id}>
                             <Todo details={todo} />
                             
