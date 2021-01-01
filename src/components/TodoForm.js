@@ -38,7 +38,7 @@ function TodoForm(props) {
         borderStyle: 'solid',
         borderWidth: 'thin',
         borderColor: '#6EE7B7',
-        backgroundColor: '#6EE7B7',
+        backgroundColor: 'red',
         color: 'white',
         letterSpacing: '2px',
         fontSize: '15px',
