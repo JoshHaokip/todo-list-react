@@ -13,7 +13,7 @@ function TodoList({todos, onDeleteClick, onToggleClick}) {
 
     const listStyles = {display: 'flex', justifyContent: 'space-between', alignItems: 'center', margin: '10px'}
 
-    const buttonStlyes = {height: '28px', width: '28px', color: '#6EE7B7', marginLeft: '15px'}
+    const buttonStlyes = {height: '24px', width: '24px', color: '#6EE7B7', marginLeft: '15px'}
     
     return (
 

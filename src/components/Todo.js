@@ -7,8 +7,10 @@ function Todo({details}) {
         fontSize: '15px',
         fontWeight: '400',
         fontStyle: 'italic',
-        letterSpacing: '3px'
+        letterSpacing: '3px',
+        opacity: '0.8'
     }
+
 
 
     return (
