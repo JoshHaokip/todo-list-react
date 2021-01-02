@@ -9,7 +9,7 @@ import uuid from 'react-uuid';
 function TodoApp() {
 
     // STYLES
-    const todoFromContainer = {
+    const todoFormContainer = {
         //display: 'flex', 
         //justifyContent: 'center', 
         height: '100%', 
@@ -66,7 +66,7 @@ function TodoApp() {
     };
 
     return (
-        <div style={todoFromContainer}>
+        <div style={todoFormContainer}>
 
             <DateSection />
             <div style={title}>

@@ -17,7 +17,7 @@ function TodoForm(props) {
     }
 
     const inputStyles = {
-        width: '65%',
+        width: '70%',
         borderStyle: 'solid',
         borderWidth: 'thin',
         borderColor: 'lightgrey',
@@ -25,8 +25,8 @@ function TodoForm(props) {
         fontSize: '12px',
         fontWeight: '200',
         fontStyle: 'italic',
-        letterSpacing: '3px',
-        paddingLeft: '15px',
+        letterSpacing: '2.5px',
+        paddingLeft: '10px',
         opacity: '0.7'
         
 
@@ -49,7 +49,7 @@ function TodoForm(props) {
 
     return (
         <form style={formStyles} onSubmit={onFormSubmit}>
-            <input style={inputStyles} type='text' value={item} onChange={onItemChange} placeholder='Keep it brief.'/>
+            <input style={inputStyles} type='text' value={item} onChange={onItemChange} placeholder="What's your plans today?"/>
             <button style={btnStyles}>Add</button>
         </form>
     )

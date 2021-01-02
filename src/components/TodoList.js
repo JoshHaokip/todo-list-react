@@ -9,12 +9,13 @@ function TodoList({todos, onDeleteClick, onToggleClick}) {
 
     const listContainer = {display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%'}
 
-    const unorderedListStyles = {listStyle: 'none', marginTop: '30px', width: '85%', padding: '0'}
+    const unorderedListStyles = {listStyle: 'none', marginTop: '30px', width: '83%', padding: '0'}
 
-    const listStyles = {display: 'flex', justifyContent: 'space-between', alignItems: 'center', margin: '10px'}
+    const listStyles = {display: 'flex', justifyContent: 'space-between', alignItems: 'center', margin: '5px 0px 15px 0px',}
 
     const buttonStlyes = {height: '24px', width: '24px', color: '#6EE7B7', marginLeft: '15px'}
     
+
     return (
 
         <div style={listContainer}>
@@ -40,7 +41,6 @@ function TodoList({todos, onDeleteClick, onToggleClick}) {
                     </div>
 
                 )}
-
 
             </ul>
 
