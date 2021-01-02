@@ -1,6 +1,6 @@
 # Todo App
 
-# :computer: Minimalistic Todo App
+# Minimalistic Todo App
 
 > I created a Todo App that can help users complete daily tasks. By integrating a calender feature the app allows users to visualise and manage tasks on a daily basis.
 
@@ -11,12 +11,14 @@ The strucuture of this page is as follows:
 - [Introduction](#introduction)
 - [Running the App](#running-the-app)
 - Project Overview
-  - Probelm
+  - Brief
+  - Problem
   - Solution
+  - Tools/Technologies
 - Learnings
 - Product Backlog
 
-# Introduction
+# Introduction :wave:
 
 Since, learning React, I figured it would be good to start putting some of the newly acquired knowledge into good use. This is my first React Project, which utilised key aspects of React such as:
 
@@ -26,23 +28,7 @@ Since, learning React, I figured it would be good to start putting some of the n
 - Component structure
 - Destructuring
 
-Since, learning React, I figured it would be good to start putting some of the newly acquired knowledge into good use. This is my first React Project, which utilised key aspects of React such as:
-
-- Create-React-App
-- Hooks
-- Inline CSS
-- Component structure
-- Destructuring
-
-Since, learning React, I figured it would be good to start putting some of the newly acquired knowledge into good use. This is my first React Project, which utilised key aspects of React such as:
-
-- Create-React-App
-- Hooks
-- Inline CSS
-- Component structure
-- Destructuring
-
-# Running the app
+# Running the app :running:
 
 Clone this repo:
 
@@ -64,18 +50,6 @@ $ npm start
 
 And open the app in your browser at <http://localhost:3000/>.
 
-Since, learning React, I figured it would be good to start putting some of the newly acquired knowledge into good use. This is my first React Project, which utilised key aspects of React such as:
+# Project Overview
 
-- Create-React-App
-- Hooks
-- Inline CSS
-- Component structure
-- Destructuring
-
-Since, learning React, I figured it would be good to start putting some of the newly acquired knowledge into good use. This is my first React Project, which utilised key aspects of React such as:
-
-- Create-React-App
-- Hooks
-- Inline CSS
-- Component structure
-- Destructuring
+## Brief
