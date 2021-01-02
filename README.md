@@ -1,5 +1,3 @@
-# Todo App
-
 # Minimalistic Todo App
 
 > I created a Todo App that can help users complete daily tasks. By integrating a calender feature the app allows users to visualise and manage tasks on a daily basis.
@@ -87,3 +85,17 @@ The design itself stays in line with the minimalistic feel whilst offering the u
 ## Tools and Technology
 
 > A list of the tools and technology I used
+
+### Technologies
+
+- React
+- React Icons
+- React UUID
+- Moment.js
+- GitHub Pages
+
+### Design Tools
+
+- Sketch
+- Whiteboard
+- Pen & Paper
