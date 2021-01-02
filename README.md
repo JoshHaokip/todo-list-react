@@ -2,7 +2,7 @@
 
 > I created a Todo App that can help users complete daily tasks. By integrating a calender feature the app allows users to visualise and manage tasks on a daily basis.
 
-![Todo-gif](https://github.com/JoshHaokip/todo-list-react/blob/master/README-IMG/todogif.gif)
+![Todo-img](https://github.com/JoshHaokip/todo-list-react/blob/master/README-IMG/todo-screenshot2.png)
 
 # Contents
 
@@ -81,7 +81,7 @@ In order for this to work, I needed to create a mockup of the app as well as dec
 
 After spending time on the design, I finally came up with an idea that utilised the feature requirements that I wanted for this app.
 
-![Todo-img](https://github.com/JoshHaokip/todo-list-react/blob/master/README-IMG/todo-screenshot2.png)
+![Todo-gif](https://github.com/JoshHaokip/todo-list-react/blob/master/README-IMG/todogif.gif)
 
 The design itself stays in line with the minimalistic feel whilst offering the user the ability to associate time with their tasks. An exciting feature that I designed is the Daily Countdown on the top right of the app, this updates every hour, which notifies the user how many hours they have left until the end of the day. My thinking was that this could help motivate the user to complete the task by indicating how long they have left till the end of the day.
 
