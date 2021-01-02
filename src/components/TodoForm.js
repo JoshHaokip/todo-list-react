@@ -8,7 +8,7 @@ function TodoForm(props) {
 
     return (
         <form className='formStyles' onSubmit={onFormSubmit}>
-            <input className='inputStyles' type='text' value={item} onChange={onItemChange} placeholder="What's your plans today?"/>
+            <input className='inputStyles' type='text' value={item} onChange={onItemChange} placeholder="What are your plans today?"/>
             <button className='btnStyles'>Add</button>
         </form>
     )
