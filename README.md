@@ -15,7 +15,6 @@ The strucuture of this page is as follows:
   - [Problem](##problem)
   - [Solution](##solution)
   - [Tools/Technologies](##tools-and-technologies)
-- Learnings
 - Product Backlog
 
 # Introduction :wave:
@@ -103,3 +102,25 @@ The design itself stays in line with the minimalistic feel whilst offering the u
 - Sketch
 - Whiteboard
 - Pen & Paper
+
+# Product Backlog :hammer:
+
+> A list of a couple of changes I'm looking to make in order of priority
+
+### High-Priority
+
+- Make it mobile responsive
+- Add local storage so users can save their tasks
+- Create Dark Mode
+
+### Medium-Priority
+
+- When at the end of the day (midnight) remove all items from local storage
+- Include user auth
+- Create a database to store user tasks
+- Switch CSS to Styled Components
+
+### Low-Priority
+
+- Change colour of Daily Countdown depending on hours left
+- Fix the date component so when date is in double figure the margin changes
