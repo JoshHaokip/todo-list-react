@@ -15,7 +15,7 @@ The strucuture of this page is as follows:
   - [Problem](##problem)
   - [Solution](##solution)
   - [Tools/Technologies](##tools-and-technologies)
-- Product Backlog
+- [Product Backlog](#product-backlog)
 
 # Introduction :wave:
 
