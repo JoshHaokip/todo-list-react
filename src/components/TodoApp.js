@@ -52,7 +52,7 @@ function TodoApp() {
 
             <DateSection />
             <div className='title'>
-                <h2>Todays's List</h2>
+                <h2>Today's List</h2>
             </div>
             <TodoForm item={item} onItemChange={handleItemChange} onFormSubmit={handleFormSubmit}/>
             <TodoList todos={todos} onDeleteClick={handleDeleteClick} onToggleClick={handleToggleComplete}/>
