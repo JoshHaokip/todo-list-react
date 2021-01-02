@@ -51,8 +51,7 @@
         font-size: 15px;
         font-weight: 900;
         border-radius: 3px;
-        padding: 0;
-        background-clip: padding-box;
+
     }
 
     .inputStyles {
@@ -67,7 +66,6 @@
         letter-spacing: 2.5px;
         padding-left: 10px;
         opacity: 0.7; 
-        padding: 0;
         background-clip: padding-box;
     
     }
