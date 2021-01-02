@@ -3,28 +3,29 @@ import DateSection from './Date/DateSection';
 import TodoForm from './TodoForm'
 import TodoList from './TodoList';
 import uuid from 'react-uuid';
+import './Styles/TodoApp.css'
 
 
 
 function TodoApp() {
 
     // STYLES
-    const todoFormContainer = {
-        //display: 'flex', 
-        //justifyContent: 'center', 
-        height: '100%', 
-        width: '40%', 
-        backgroundColor: 'white'
-    }; 
+    // const todoFormContainer = {
+    //     //display: 'flex', 
+    //     //justifyContent: 'center', 
+    //     height: '100%', 
+    //     width: '40%', 
+    //     backgroundColor: 'white'
+    // }; 
 
-    const title = {
-        display: 'flex', 
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: 'white',
-        height: '5%',
-        fontSize: '15px',
-    }
+    // const title = {
+    //     display: 'flex', 
+    //     justifyContent: 'center',
+    //     alignItems: 'center',
+    //     backgroundColor: 'white',
+    //     height: '5%',
+    //     fontSize: '15px',
+    // }
 
     const [todos, setTodos] = useState([]);
     const [item, setItem] = useState('');
@@ -66,10 +67,10 @@ function TodoApp() {
     };
 
     return (
-        <div style={todoFormContainer}>
+        <div className='todoFormContainer'>
 
             <DateSection />
-            <div style={title}>
+            <div className='title'>
                 <h2>Todays's List</h2>
             </div>
             <TodoForm item={item} onItemChange={handleItemChange} onFormSubmit={handleFormSubmit}/>

@@ -1,0 +1,40 @@
+
+
+.todoFormContainer {
+    height: 100%; 
+    width: 40%; 
+    background-color: white;
+}
+
+.title {
+    display: flex; 
+    justify-content: center;
+    background-color: white;
+    height: 5%;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 748px) {
+
+    .todoFormContainer {
+        
+        height: 100%; 
+        width: 82%; 
+        background-color: white;
+    }
+
+    .title {
+        display: flex; 
+        justify-content: center;
+        background-color: white;
+        height: 7.5%;
+        font-size: 15px;
+    }
+
+
+
+    
+
+
+    
+}

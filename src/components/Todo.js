@@ -1,22 +1,22 @@
-import React from 'react'
+import React from 'react';
+import './Styles/todo.css'
+
 
 function Todo({details}) {
 
-    const itemStyle = {
+    // const itemStyle = {
 
-        fontSize: '15px',
-        fontWeight: '400',
-        fontStyle: 'italic',
-        letterSpacing: '3px',
-        opacity: '0.8'
-    }
-
-
+    //     fontSize: '15px',
+    //     fontWeight: '400',
+    //     fontStyle: 'italic',
+    //     letterSpacing: '3px',
+    //     opacity: '0.8',
+    // }
 
     return (
 
 
-            <p style={itemStyle}>{details.item}</p>
+            <p className='itemStyle'>{details.item}</p>
 
     )
 }

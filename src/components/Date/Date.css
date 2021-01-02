@@ -1,0 +1,116 @@
+
+/* Date Selection*/
+.dateSectionContainer {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height: 25%; 
+    width: 100%; 
+    background-color: white;
+    margin-top: 5%;
+}
+
+/* Full Date Left */
+.fullDateLeftContainer {
+    display: flex;
+    text-align: 'left'; 
+    height: 100%;
+    width: 50%;
+}
+
+.fullDateLeftDay {
+    display: flex;
+    align-items: center;
+    float: right;
+    height: 100%;
+    /* width: '35%' */
+    width: 18%;
+} 
+
+.fullDateLeftMY {
+    float: left;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0px;
+}
+
+.monthNameStyle {
+    font-size: 65px; 
+    margin: 0; 
+    font-weight: 400;
+}
+
+
+.fullDateRight1 {
+    margin: 5px; 
+    font-weight: 900; 
+    letter-spacing: 5.5px;
+}
+
+.fullDateRight2 {
+    margin: 5px; 
+    color: #C0C0C0;
+    font-weight: 600;
+}
+
+/* Full Date Right */
+
+.fullDateRightContainer {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    height: 100%;
+    width: 50%;
+}
+
+.fullDateRight {
+    display: flex;
+    align-items: right; 
+    flex-direction: column;
+    justify-content: center; 
+    padding-left: 0px;
+}
+
+.dayStyles {
+    margin: 5px; 
+    font-size: 20px; 
+    font-weight: 600;
+}
+
+.timeRemainingStyles {
+    margin: 5px; 
+    font-size: 12px; 
+    font-weight: 900; 
+    color: #059669;
+}
+
+
+@media only screen and (max-width: 748px) {
+
+    .dateSectionContainer {
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        height: 100px; 
+        width: 100%; 
+        background-color: white;
+        margin-top: 15%;
+        margin-bottom: 10px;
+    }
+
+    .fullDateLeftMY {
+        float: left;
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 15px;
+    }
+
+
+
+}

@@ -2,7 +2,7 @@ import React from 'react';
 import Todo from './Todo';
 import { MdDelete } from "react-icons/md";
 import { MdDone } from "react-icons/md";
-import './TodoList.css'
+import './Styles/TodoList.css'
 
 
 function TodoList({todos, onDeleteClick, onToggleClick}) {

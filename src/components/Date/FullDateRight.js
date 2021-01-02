@@ -16,20 +16,20 @@ function FullDateRight() {
 
     // Styles for FullDateRight
 
-    const fullDateRightContainer = {display: 'flex',justifyContent: 'flex-end',textAlign: 'right',height: '100%',width: '50%',}
+    // const fullDateRightContainer = {display: 'flex',justifyContent: 'flex-end',textAlign: 'right',height: '100%',width: '50%',}
 
-    const fullDateRight = {display: 'flex',alignItems: 'right', flexDirection: 'column',justifyContent: 'center', paddingLeft: '0px'}
+    // const fullDateRight = {display: 'flex',alignItems: 'right', flexDirection: 'column',justifyContent: 'center', paddingLeft: '0px'}
 
-    const dayStyles = {margin: '5px', fontSize: '20px', fontWeight: '600'}
+    // const dayStyles = {margin: '5px', fontSize: '20px', fontWeight: '600'}
 
-    const timeRemainingStyles = {margin: '5px', fontSize: '12px', fontWeight: '900', color: '#059669'}
+    // const timeRemainingStyles = {margin: '5px', fontSize: '12px', fontWeight: '900', color: '#059669'}
 
     return (
-        <div style={fullDateRightContainer}>
+        <div className='fullDateRightContainer'>
             
-            <div style={fullDateRight}>
-                <h3 style={dayStyles}>{day}</h3>  
-                <h3 style={timeRemainingStyles}>Complete {hoursLeft}</h3>      
+            <div className='fullDateRight'>
+                <h3 className='dayStyles'>{day}</h3>  
+                <h3 className='timeRemainingStyles'>Complete {hoursLeft}</h3>      
             </div>
         </div>
     )
