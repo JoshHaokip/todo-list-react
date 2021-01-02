@@ -52,6 +52,6 @@
         font-weight: 900;
         border-radius: 3px;
         padding: 0;
-        -webkit-appearance : none;
+        background-clip: padding-box;
     }
 }
