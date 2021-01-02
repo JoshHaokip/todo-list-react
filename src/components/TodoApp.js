@@ -6,26 +6,7 @@ import uuid from 'react-uuid';
 import './Styles/TodoApp.css'
 
 
-
 function TodoApp() {
-
-    // STYLES
-    // const todoFormContainer = {
-    //     //display: 'flex', 
-    //     //justifyContent: 'center', 
-    //     height: '100%', 
-    //     width: '40%', 
-    //     backgroundColor: 'white'
-    // }; 
-
-    // const title = {
-    //     display: 'flex', 
-    //     justifyContent: 'center',
-    //     alignItems: 'center',
-    //     backgroundColor: 'white',
-    //     height: '5%',
-    //     fontSize: '15px',
-    // }
 
     const [todos, setTodos] = useState([]);
     const [item, setItem] = useState('');

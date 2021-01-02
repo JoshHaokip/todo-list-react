@@ -1,13 +1,38 @@
 
-/* This is for the toggle effect  */
+
+.listContainer {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%;
+}
+
+.unorderedListStyles {
+    list-style: none; 
+    margin-top: 30px; 
+    width: 83%; 
+    padding: 0;
+}
 
 .listStyles {
-
-    display: 'flex';
-    justify-content: 'space-between';
-    align-items: 'center';
-    margin: '10px';
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 5px 0px 15px 0px;
 }
+
+.buttonStlyes {
+    height: 24px; 
+    width: 24px; 
+    color: #6EE7B7; 
+    margin-left: 15px
+}
+
+
+
+
+/* This is for the toggle effect  */
+
 
 .completionButtonStlyes {
     height: '28px';

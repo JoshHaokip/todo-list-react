@@ -7,32 +7,23 @@ import './Styles/TodoList.css'
 
 function TodoList({todos, onDeleteClick, onToggleClick}) {
 
-    const listContainer = {display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%'}
-
-    const unorderedListStyles = {listStyle: 'none', marginTop: '30px', width: '83%', padding: '0'}
-
-    const listStyles = {display: 'flex', justifyContent: 'space-between', alignItems: 'center', margin: '5px 0px 15px 0px',}
-
-    const buttonStlyes = {height: '24px', width: '24px', color: '#6EE7B7', marginLeft: '15px'}
-    
-
     return (
 
-        <div style={listContainer}>
+        <div className='listContainer'>
 
-            <ul style={unorderedListStyles}>
+            <ul className='unorderedListStyles'>
 
                 {todos.map(todo => 
 
-                    <div className={todo.isComplete ? 'completionButtonStlyes complete' : 'completionButtonStlyes '}>
+                    <div className={todo.isComplete ? 'completionButtonStlyes complete' : 'completionButtonStlyes'}>
                         
-                        <li style={listStyles} key={todo.id}>
+                        <li className='listStyles' key={todo.id}>
                             <Todo details={todo} />
                             
                             <div>
 
-                                <MdDone style={buttonStlyes} onClick={() => onToggleClick(todo.id)}/>
-                                <MdDelete style={buttonStlyes} onClick={() => onDeleteClick(todo.id)}/>
+                                <MdDone className='buttonStlyes' onClick={() => onToggleClick(todo.id)}/>
+                                <MdDelete className='buttonStlyes' onClick={() => onDeleteClick(todo.id)}/>
                                 
 
                             </div>
