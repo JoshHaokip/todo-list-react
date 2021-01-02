@@ -54,4 +54,23 @@
         padding: 0;
         background-clip: padding-box;
     }
+
+    .inputStyles {
+        width: 70%;
+        border-style: solid;
+        border-width: thin;
+        border-color: lightgrey;
+        border-radius: 3px;
+        font-size: 12px;
+        font-weight: 200;
+        font-style: italic;
+        letter-spacing: 2.5px;
+        padding-left: 10px;
+        opacity: 0.7; 
+        padding: 0;
+        background-clip: padding-box;
+    
+    }
+
+    
 }
