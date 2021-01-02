@@ -4,12 +4,12 @@
 
 > I created a Todo App that can help users complete daily tasks. By integrating a calender feature the app allows users to visualise and manage tasks on a daily basis.
 
-### Contents
+## Contents
 
 The strucuture of this page is as follows:
 
-- Introduction
-- Running the App
+- [Introduction](#introduction)
+- [Running the App](#Running-the-app)
 - Project Overview
   - Probelm
   - Solution
