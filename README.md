@@ -109,7 +109,7 @@ The design itself stays in line with the minimalistic feel whilst offering the u
 
 ### High-Priority
 
-- Make it mobile responsive
+- ~~Make it mobile responsive~~ (updated on 2nd Jan)
 - Add local storage so users can save their tasks
 - Create Dark Mode
 
