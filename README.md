@@ -74,13 +74,13 @@ Don't get me wrong, I don't think there is a problem with this flow, my issue is
 
 > Create an app with acknowledgement of time to help direct the completion of daily tasks
 
-My solution to this was to design and build an app that would offer a sense of time to aid in the completion of tasks. By which I mean showing the date and time to offer the user the ability to associate the tasks with the date and time.
+My solution to this was to design and build an app that would offer a sense of time to aid in the completion of tasks. By which I mean showing the date and time to offer the user the ability to associate the tasks within a certain time frame, in this case - 24hr period.
 
-In order for this to work, I needed to create a mockup of the app and the decide on the layout of the app. As the main feature is to help visualise the date and time, my main focus was to find a way to incorporate it onto the app whilst maintaining a minimalistic design.
+In order for this to work, I needed to create a mockup of the app as well as deciding on the layout. As the main feature is to help visualise the date and time, my initial focus was to find a way to incorporate it onto the app whilst maintaining a minimalistic design.
 
-After spending time on the design, I finally came up with an idea that utilised the features that I wanted for this app.
+After spending time on the design, I finally came up with an idea that utilised the feature requirements that I wanted for this app.
 
-The design itself stays in line with the minimalistic feel whilst offering the user the ability to associate time with their tasks. An exciting feature that I designed is the Daily Countdown on the top right of the app, this updates every hour, which notifies the user how many hours they have left until the end of the day.
+The design itself stays in line with the minimalistic feel whilst offering the user the ability to associate time with their tasks. An exciting feature that I designed is the Daily Countdown on the top right of the app, this updates every hour, which notifies the user how many hours they have left until the end of the day. My thinking was that this could help motivate the user to complete the task by indicating how long they have left till the end of the day.
 
 ## Tools and Technology
 
