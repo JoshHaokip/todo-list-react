@@ -2,6 +2,8 @@
 
 > I created a Todo App that can help users complete daily tasks. By integrating a calender feature the app allows users to visualise and manage tasks on a daily basis.
 
+![Todo-gif](https://github.com/JoshHaokip/todo-list-react/blob/master/README-IMG/ezgif.com-gif-maker.gif)
+
 # Contents
 
 The strucuture of this page is as follows:
