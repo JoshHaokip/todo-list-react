@@ -9,12 +9,18 @@ const LOCAL_STORAGE_KEY = "todo-list";
 
 function TodoApp() {
 
-    const [todos, setTodos] = useState(() => {
-        return JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY))
-    });
+    const [todos, setTodos] = useState([]);
     const [item, setItem] = useState('');
 
     // This will save to local storage
+
+    useEffect(() => {
+        const storageTodos = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY))
+
+        if (storageTodos) {
+            setTodos(storageTodos)
+        }
+    }, [])
 
     useEffect(() => {
         localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(todos))
