@@ -1,16 +1,26 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import DateSection from './Date/DateSection';
 import TodoForm from './TodoForm'
 import TodoList from './TodoList';
 import uuid from 'react-uuid';
 import './Styles/TodoApp.css'
 
+const LOCAL_STORAGE_KEY = "todo-list";
 
 function TodoApp() {
 
-    const [todos, setTodos] = useState([]);
+    const [todos, setTodos] = useState(() => {
+        return JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY))
+    });
     const [item, setItem] = useState('');
 
+    // This will save to local storage
+
+    useEffect(() => {
+        localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(todos))
+    }, [todos]);
+
+    
     function handleItemChange(e) {
         setItem(e.target.value)
     }
