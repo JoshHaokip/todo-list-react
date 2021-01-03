@@ -17,7 +17,7 @@ The strucuture of this page is as follows:
   - [Tools/Technologies](##tools-and-technologies)
 - [Product Backlog](#product-backlog)
 
-# Introduction :wave:
+# :wave: Introduction
 
 Since, learning React, I figured it would be good to start putting some of the newly acquired knowledge into good use. This is my first React Project, which utilised key aspects of React such as:
 
@@ -28,7 +28,7 @@ Since, learning React, I figured it would be good to start putting some of the n
 - Destructuring
 - React libraries
 
-# Running the app :running:
+# :running: Running the app
 
 Clone this repo:
 
@@ -50,7 +50,7 @@ $ npm start
 
 And open the app in your browser at <http://localhost:3000/>.
 
-# Project Overview :fire:
+# :fire: Project Overview
 
 ## Brief
 
@@ -103,7 +103,7 @@ The design itself stays in line with the minimalistic feel whilst offering the u
 - Whiteboard
 - Pen & Paper
 
-# Product Backlog :hammer:
+# :hammer: Product Backlog
 
 > A list of a couple of changes I'm looking to make in order of priority
 
