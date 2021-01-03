@@ -107,20 +107,22 @@ The design itself stays in line with the minimalistic feel whilst offering the u
 
 > A list of a couple of changes I'm looking to make in order of priority
 
-### High-Priority
+### 🔴 High-Priority
 
 - ~~Make it mobile responsive~~ (updated on 2nd Jan)
-- Add local storage so users can save their tasks
+- ~~Add local storage so users can save their tasks~~ (updated on 3rd Jan)
 - Create Dark Mode
 
-### Medium-Priority
+### 🟢 Medium-Priority
 
 - When at the end of the day (midnight) remove all items from local storage
 - Include user auth
 - Create a database to store user tasks
 - Switch CSS to Styled Components
 
-### Low-Priority
+### 🟡 Low-Priority
 
 - Change colour of Daily Countdown depending on hours left
 - Fix the date component so when date is in double figure the margin changes
+
+> I have created a [Product Backlog Page](https://www.notion.so/joshhaokip/051a4cbea3eb40bd8d4c7c985ec661e2?v=2911060a0b5446fdbcb6356277ba5c3b) on notion which has the full list of features and fixes I am working on as well as those that have been completed. Feel free to check it out.
