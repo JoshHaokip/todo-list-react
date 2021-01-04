@@ -1,6 +1,6 @@
-# Minimalistic Todo App
+# Minimalistic Task Management App
 
-> I created a Todo App that can help users complete daily tasks. By integrating a calender feature the app allows users to visualise and manage tasks on a daily basis.
+> I created a Task Management App that can help users complete daily tasks. By integrating a calender feature the app allows users to visualise and manage tasks on a daily basis.
 
 ![Todo-img](https://github.com/JoshHaokip/todo-list-react/blob/master/README-IMG/todo-screenshot2.png)
 
@@ -22,9 +22,7 @@ The strucuture of this page is as follows:
 Since, learning React, I figured it would be good to start putting some of the newly acquired knowledge into good use. This is my first React Project, which utilised key aspects of React such as:
 
 - Create-React-App
-- Hooks
-- Inline CSS
-- Component structure
+- Hooks {useState, useEffect}
 - Destructuring
 - React libraries
 
