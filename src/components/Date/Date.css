@@ -24,7 +24,7 @@
     float: right;
     height: 100%;
     /* width: '35%' */
-    width: 18%;
+    width: 34%;
 } 
 
 .fullDateLeftMY {
@@ -110,6 +110,14 @@
         justify-content: center;
         padding-left: 15px;
     }
+
+    .fullDateLeftDay {
+        display: flex;
+        align-items: center;
+        float: right;
+        height: 100%;
+        width: 38%;
+    } 
 
 
 
