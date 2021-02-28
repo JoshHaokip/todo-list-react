@@ -109,13 +109,10 @@ The design itself stays in line with the minimalistic feel whilst offering the u
 
 - ~~Make it mobile responsive~~ (updated on 2nd Jan)
 - ~~Add local storage so users can save their tasks~~ (updated on 3rd Jan)
-- Create Dark Mode
 
 ### 🟢 Medium-Priority
 
 - When at the end of the day (midnight) remove all items from local storage
-- Include user auth
-- Create a database to store user tasks
 - Switch CSS to Styled Components
 
 ### 🟡 Low-Priority
